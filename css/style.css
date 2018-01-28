@@ -58,8 +58,18 @@ h3 {
 }
 
 .logo svg {
-  max-height: 120px;
-  width: auto;
+  height: auto;
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+
+  .logo svg {
+    height: 140px;
+    width: auto;
+  }
+
 }
 
 
