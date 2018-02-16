@@ -3,7 +3,7 @@
 
 body {
   font-size: 16px;
-  border-top: 8px solid #008000;
+  border-top: 8px solid #0056ac;
 /*   font-family: 'Alegreya Sans', sans-serif; */
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -98,7 +98,7 @@ ul.boxes li {
 
 ul.boxes li .fa {
   font-size: 1.75em;
-  color: #008000;
+  color: #0056ac;
   margin: 0 0 20px 0;
 }
 
