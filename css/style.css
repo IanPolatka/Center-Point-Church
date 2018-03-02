@@ -187,6 +187,30 @@ ul.follow-us li a {
   background: rgba(0, 132, 255, .5);
 }
 
+.instagram {
+  background: #e95950;
+  border: 1px solid #e95950;
+  color: #fff;
+}
+
+.instagram:hover {
+  background: #cd486b;
+  border: 1px solid #cd486b;
+  color: #fff;
+}
+
+.youtube {
+  background: #FF0000;
+  border: 1px solid #FF0000;
+  color: #fff;
+}
+
+.youtube:hover {
+  background: rgba(255,0,0,.7);
+  border: 1px solid rgba(255,0,0,.1);
+  color: #fff;
+}
+
 .email {
   background: #fff;
   border: 1px solid #999;
