@@ -211,6 +211,18 @@ ul.follow-us li a {
   color: #fff;
 }
 
+.spotify {
+  background: #1db954;
+  border: 1px solid #1db954;
+  color: #fff;
+}
+
+.spotify:hover {
+  background: rgba(#1db954, .5);
+  border: 1px solid rgba(#1db954, .5);
+  color: #fff;
+}
+
 .email {
   background: #fff;
   border: 1px solid #999;
