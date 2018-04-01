@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+
+body {
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	border-top: 5px solid #0056ac;
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/grey.png') repeat top left;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+/*******************************************************
+Typography
+*******************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+
+p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/*******************************************************
+Form
+*******************************************************/
+
+.form-group {
+  text-align: left;
+}
+
+label {
+  font-size: .7em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #777;
+}
+
+.form-control {
+  padding: 12px;
+  height: auto !important;
+}
+
+
+
+
+
+/*******************************************************
+Animations
+*******************************************************/
+
+@keyframes buttonAnimation {
+    from {background-color: #fff; color: #0056ac;}
+    to {background-color: #0056ac; color:#fff;}
+}
+
+@keyframes greyButtonAnimation {
+    from {background-color: #f5f5f5; color: #0056ac;}
+    to {background-color: #0056ac; color:#fff;}
+}
+
+
+
+
+
+
+
+/*******************************************************
+Secondary Nav
+*******************************************************/
+
+.nav-pills>li>a {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  color: #0056ac;
+  margin: 15px 0;
+}
+
+.nav-pills>li>a:first-child {
+  margin-top: 0px;
+}
+
+.nav-pills>li>a:hover {
+  background: #0056ac;
+  color: #fff;
+  border: 1px solid #0056ac;
+  animation-name: greyButtonAnimation;
+  animation-duration: .5s;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background: #0056ac;
+  color: #fff;
+  border: 1px solid #0056ac;
+  animation-name: greyButtonAnimation;
+  animation-duration: .5s;
+}
+
+
+
+
+
+
+
+/*******************************************************
+Header
+*******************************************************/
+
+.main-nav {
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.main-nav a:hover {
+  text-decoration: none;
+  color: rgba(0,86,172, .4);
+}
+
+
+
+
+
+
+
+/*******************************************************
+Hero Unit
+*******************************************************/
+
+.hero-unit {
+	text-align: center;
+	margin: 50px 0;
+	font-size: 1.1em;
+}
+
+.hero-unit h2 {
+	font-weight: 700;
+}
+
+.hero-unit svg {
+  height: auto;
+  width: 75%;
+  margin: 0px auto 40px auto;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero-unit svg {
+    height: 140px;
+    width: auto;
+  }
+
+}
+
+
+
+
+
+
+
+/*******************************************************
+Buttons
+*******************************************************/
+
+.btn {
+	text-transform: uppercase;
+	padding: 12px 25px;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+.btn .fas {
+	padding-left: 10px;
+}
+
+.btn-default {
+	border: 1px solid #0056ac;
+	color: #0056ac;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+	background: #0056ac;
+	color: #fff;
+	border: 1px solid #0056ac;
+  animation-name: buttonAnimation;
+  animation-duration: .5s;
+}
+
+
+
+
+
+/*******************************************************
+Shadow Boxes
+*******************************************************/
+
+.boxes {
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 60px rgba(0,0,0,.2);
+}
+
+.shadow-box {
+	background: #fff;
+	padding: 60px 60px 140px 60px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 60px rgba(0,0,0,.2);
+	border-radius: 8px;
+	color: #000;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.shadow-box hr {
+  margin: 50px 0;
+}
+
+.hp-box .shadow-box .icon {
+	font-size: 16em;
+	color: rgba(0,86,172, .08);
+	margin-bottom: 40px;
+}
+
+.hp-box {
+  padding-top: 250px;
+  padding-bottom: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+.hp-box .shadow-box h3 {
+	text-transform: uppercase;
+}
+
+.section__stripes {
+    width: 140%;
+    height: 33rem;
+    transform-origin: 0;
+    background: #0056ac;
+    position: absolute;
+    bottom: -30vh;
+    left: -8vh;
+    transform: skewY(3deg) rotate(3deg);
+    opacity: 0.9;
+}
+
+.hp-box .section__stripes {
+    width: 140%;
+    height: 33rem;
+    transform-origin: 0;
+    background: #0056ac;
+    position: absolute;
+    bottom: -10vh;
+    left: -8vh;
+    transform: skewY(3deg) rotate(3deg);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.easter {
+  background: url('img/sermons/EasterTomb.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.hp-box .shadow-box-content {
+  z-index: 10;
+  position: relative;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.upcoming-series {
+  background: url('img/sermons/why-does-jesus-matter.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.app-small-screen {
+  display: block;
+}
+
+.app-large-screen {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .app-small-screen {
+    display: none;
+  }
+
+  .app-large-screen {
+    display: block;
+  }
+
+	.boxes {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+  .boxes img {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hp-box {
+    padding-top: 100px;
+  }
+
+  .shadow-box {
+    width: 95%;
+  }
+
+  .shadow-box-content {
+    padding-top: 180px;
+    z-index: 10;
+    position: relative;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+
+  .easter .section__stripes {
+
+  }
+
+  /*.shadow-box hr {
+    margin: 50px 0;
+  }
+
+	.two-boxes .shadow-box {
+		width: 100%;
+    padding: 140px 20px 20px 20px;
+    display:flex;
+	}
+
+  .two-boxes .shadow-box .shadow-box-content {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: left;
+    color: #fff;
+    align-self: flex-end;
+  }
+
+  .two-boxes .shadow-box h3 {
+    text-transform: uppercase;
+  }
+
+  .two-boxes .section__stripes {
+      bottom: 0vh;
+  }
+
+  .three-boxes .shadow-box {
+    width: 28%;
+  }*/
+
+}
+
+@media screen and (min-width: 1000px) {
+
+	.boxes {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+  .boxes > a {
+    width: 90%;
+  }
+
+
+
+  .boxes img {
+    box-shadow: 0 1px 60px rgba(0,0,0,.2);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .shadow-box {
+    width: 90%;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .with-sidebar {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  /*.two-boxes .shadow-box {
+    padding: 60px 60px 140px 60px;
+  }
+
+  .three-boxes .shadow-box {
+    padding: 60px 60px 140px 60px;
+  }
+
+  .two-boxes .shadow-box {
+    padding-top: 300px;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #fff;
+  }*/
+
+  /*.shadow-box hr {
+    margin: 50px 0;
+  }
+
+  .two-boxes .shadow-box hr {
+    margin: 20px 0;
+  }
+
+	.two-boxes .shadow-box {
+		width: 40%;
+	}
+
+  .two-boxes .shadow-box .shadow-box-content {
+    z-index: 10;
+    position: relative;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }*/
+
+}
+
+
+
+
+
+
+
+/*******************************************************
+Sidebar
+*******************************************************/
+
+.sidebar {
+  margin-bottom: 40px;
+} 
+
+@media screen and (min-width: 992px) {
+  .sidebar {
+    padding-right: 80px;
+  }  
+}
+
+
+
+
+
+
+
+/*******************************************************
+Footer
+*******************************************************/
+
+footer {
+	background: #fff;
+	margin-top: 100px;
+	padding: 50px 0;
+	border-top: 1px solid #eee;
+}
+
+footer svg {
+	height: 40px;
+	width: auto;
+	margin-right: 8px;
+}
+
+ul.follow-us {
+  display: flex;
+  font-size: 1.15em;
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+  text-align: left;
+  align-items: center;
+  font-style: normal !important;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+ul.follow-us li {
+  padding: 0;
+  list-style: none;
+  margin-right: 10px;
+  text-align: center;
+}
+
+ul.follow-us li a {
+  text-decoration: none;
+  display: block;
+  max-height: 40px;
+}
+
+.borderless-bottom {
+	border-bottom: none !important;
+}
+
+.contact-box {
+  display: flex;
+  height: 28px;
+  width: 28px;
+  padding: 5px;
+  background: #eee;
+  font-size: .75em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.contact-box .fa {
+  margin: auto;
+}
+
+.facebook {
+  background: rgb(59,89,152);
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.facebook:hover {
+  background: rgba(59,89,152, .5);
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.twitter {
+  background: #0084FF;
+  border: 1px solid #0084FF;
+  color: #fff;
+}
+
+.twitter:hover {
+  border: 1px solid transparent;
+  background: rgba(0, 132, 255, .5);
+}
+
+.instagram {
+  background: #e95950;
+  border: 1px solid #e95950;
+  color: #fff;
+}
+
+.instagram:hover {
+  background: #cd486b;
+  border: 1px solid #cd486b;
+  color: #fff;
+}
+
+.youtube {
+  background: #FF0000;
+  border: 1px solid #FF0000;
+  color: #fff;
+}
+
+.youtube:hover {
+  background: rgba(255,0,0,.7);
+  border: 1px solid rgba(255,0,0,.1);
+  color: #fff;
+}
+
+.spotify {
+  background: #1db954;
+  border: 1px solid #1db954;
+  color: #fff;
+}
+
+.spotify:hover {
+  background: rgba(#1db954, .5);
+  border: 1px solid rgba(#1db954, .5);
+  color: #fff;
+}
+
+.email {
+  background: #fff;
+  border: 1px solid #999;
+  color: #999;
+}
+
+.email:hover {
+  background-color: rgba(#0084FF, .5);
+}
