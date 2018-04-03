@@ -283,7 +283,7 @@ Shadow Boxes
     transform-origin: 0;
     background: #0056ac;
     position: absolute;
-    bottom: -10vh;
+    bottom: -5vh;
     left: -8vh;
     transform: skewY(3deg) rotate(3deg);
     opacity: 0.9;
@@ -353,8 +353,8 @@ Shadow Boxes
     align-self: flex-end;
   }
 
-  .easter .section__stripes {
-
+  .hp-box .section__stripes {
+    bottom: -8vh;
   }
 
   /*.shadow-box hr {
@@ -414,8 +414,8 @@ Shadow Boxes
 
   .shadow-box {
     width: 90%;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 125px;
+    padding-right: 125px;
   }
 
   .with-sidebar {
