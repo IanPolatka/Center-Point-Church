@@ -3,11 +3,11 @@
 
 
 body {
-	background: #fff;
-	font-family: 'Roboto', sans-serif;
-	border-top: 5px solid #0056ac;
-	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/grey.png') repeat top left;
-	font-size: 16px;
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  border-top: 5px solid #0056ac;
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/grey.png') repeat top left;
+  font-size: 16px;
 }
 
 
@@ -21,8 +21,8 @@ Typography
 *******************************************************/
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
-	margin: 0 0 20px 0;
+  font-weight: 700;
+  margin: 0 0 20px 0;
 }
 
 p {
@@ -154,13 +154,13 @@ Hero Unit
 *******************************************************/
 
 .hero-unit {
-	text-align: center;
-	margin: 50px 0;
-	font-size: 1.1em;
+  text-align: center;
+  margin: 50px 0;
+  font-size: 1.1em;
 }
 
 .hero-unit h2 {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .hero-unit svg {
@@ -189,25 +189,25 @@ Buttons
 *******************************************************/
 
 .btn {
-	text-transform: uppercase;
-	padding: 12px 25px;
-	font-weight: bold;
-	font-size: .8em;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  font-weight: bold;
+  font-size: .8em;
 }
 
 .btn .fas {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 .btn-default {
-	border: 1px solid #0056ac;
-	color: #0056ac;
+  border: 1px solid #0056ac;
+  color: #0056ac;
 }
 
 .btn-default:hover, .btn-default:active, .btn-default:focus {
-	background: #0056ac;
-	color: #fff;
-	border: 1px solid #0056ac;
+  background: #0056ac;
+  color: #fff;
+  border: 1px solid #0056ac;
   animation-name: buttonAnimation;
   animation-duration: .5s;
 }
@@ -221,8 +221,8 @@ Shadow Boxes
 *******************************************************/
 
 .boxes {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .boxes img {
@@ -233,15 +233,15 @@ Shadow Boxes
 }
 
 .shadow-box {
-	background: #fff;
-	padding: 60px 60px 140px 60px;
-	margin-bottom: 30px;
-	box-shadow: 0 1px 60px rgba(0,0,0,.2);
-	border-radius: 8px;
-	color: #000;
-	overflow: hidden;
-	position: relative;
-	text-align: center;
+  background: #fff;
+  padding: 60px 60px 140px 60px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 60px rgba(0,0,0,.2);
+  border-radius: 8px;
+  color: #000;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
 }
 
 .shadow-box hr {
@@ -249,9 +249,9 @@ Shadow Boxes
 }
 
 .hp-box .shadow-box .icon {
-	font-size: 16em;
-	color: rgba(0,86,172, .08);
-	margin-bottom: 40px;
+  font-size: 16em;
+  color: rgba(0,86,172, .08);
+  margin-bottom: 40px;
 }
 
 .hp-box {
@@ -262,7 +262,7 @@ Shadow Boxes
 }
 
 .hp-box .shadow-box h3 {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .section__stripes {
@@ -315,6 +315,26 @@ Shadow Boxes
   display: none;
 }
 
+div.sap-embed-player{ 
+  position:relative;
+  width:100%;
+  height:0;
+  padding-top:56.25%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+div.sap-embed-player>iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
 
   .app-small-screen {
@@ -325,11 +345,11 @@ Shadow Boxes
     display: block;
   }
 
-	.boxes {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
   .boxes img {
     width: 95%;
@@ -357,16 +377,19 @@ Shadow Boxes
     bottom: -8vh;
   }
 
+  div.sap-embed-player{ 
+    width: 95%;
+    padding-top: 370px;
+  }
+
   /*.shadow-box hr {
     margin: 50px 0;
   }
-
-	.two-boxes .shadow-box {
-		width: 100%;
+  .two-boxes .shadow-box {
+    width: 100%;
     padding: 140px 20px 20px 20px;
     display:flex;
-	}
-
+  }
   .two-boxes .shadow-box .shadow-box-content {
     padding-top: 100px;
     padding-bottom: 0px;
@@ -374,15 +397,12 @@ Shadow Boxes
     color: #fff;
     align-self: flex-end;
   }
-
   .two-boxes .shadow-box h3 {
     text-transform: uppercase;
   }
-
   .two-boxes .section__stripes {
       bottom: 0vh;
   }
-
   .three-boxes .shadow-box {
     width: 28%;
   }*/
@@ -391,11 +411,11 @@ Shadow Boxes
 
 @media screen and (min-width: 1000px) {
 
-	.boxes {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
   .boxes > a {
     width: 90%;
@@ -423,14 +443,16 @@ Shadow Boxes
     padding-right: 60px;
   }
 
+  div.sap-embed-player{ 
+    width: 90%;
+  }
+
   /*.two-boxes .shadow-box {
     padding: 60px 60px 140px 60px;
   }
-
   .three-boxes .shadow-box {
     padding: 60px 60px 140px 60px;
   }
-
   .two-boxes .shadow-box {
     padding-top: 300px;
     padding-bottom: 30px;
@@ -441,15 +463,12 @@ Shadow Boxes
   /*.shadow-box hr {
     margin: 50px 0;
   }
-
   .two-boxes .shadow-box hr {
     margin: 20px 0;
   }
-
-	.two-boxes .shadow-box {
-		width: 40%;
-	}
-
+  .two-boxes .shadow-box {
+    width: 40%;
+  }
   .two-boxes .shadow-box .shadow-box-content {
     z-index: 10;
     position: relative;
@@ -490,16 +509,16 @@ Footer
 *******************************************************/
 
 footer {
-	background: #fff;
-	margin-top: 100px;
-	padding: 50px 0;
-	border-top: 1px solid #eee;
+  background: #fff;
+  margin-top: 100px;
+  padding: 50px 0;
+  border-top: 1px solid #eee;
 }
 
 footer svg {
-	height: 40px;
-	width: auto;
-	margin-right: 8px;
+  height: 40px;
+  width: auto;
+  margin-right: 8px;
 }
 
 ul.follow-us {
@@ -528,7 +547,7 @@ ul.follow-us li a {
 }
 
 .borderless-bottom {
-	border-bottom: none !important;
+  border-bottom: none !important;
 }
 
 .contact-box {
