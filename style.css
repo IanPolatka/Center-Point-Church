@@ -295,6 +295,11 @@ Shadow Boxes
   background-size: cover;
 }
 
+.authentic {
+  background: url('img/sermons/authentic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 .hp-box .shadow-box-content {
   z-index: 10;
   position: relative;
@@ -304,6 +309,11 @@ Shadow Boxes
 
 .upcoming-series {
   background: url('img/sermons/why-does-jesus-matter.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.members {
+  background: url('img/members/members.jpg') no-repeat center center;
   background-size: cover;
 }
 
